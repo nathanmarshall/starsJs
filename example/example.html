@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>stars.js</title>
+    <link rel="stylesheet" href="css/stars.css">
+  </head>
+  <body>
+  <style type="text/css">
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      height: 100%;
+      width: 100%;
+      background: #12222d;
+    }
+  </style>
+  <div id="container">
+    <!-- Empty div -->
+  </div>
+  <script src="../source/stars.js"></script>
+  <script type="text/javascript">
+    var stars = new Stars(document.getElementById('container'));
+    stars.start();
+  </script>
+  </body>
+</html>
